@@ -25,6 +25,7 @@ module.exports = {
       },
       screens: {
         'sm' : "300px",
+        '2sm' : "416px",
       },
       backgroundColor: {
         'hover': '#979797'
@@ -34,6 +35,9 @@ module.exports = {
         'barlow-cond' : 'Barlow Condensed, sans-serif',
         'belle' : 'Bellefair, sans-serif',
       },
+      colors: {
+        'hover': '#979797'
+      }
     },
   },
   plugins: [],

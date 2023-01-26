@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <section className="md:bg-hero-desktop sm:bg-hero-tablet bg-hero-mobile w-full bg-center bg-no-repeat bg-cover grid place-items-center md:h-screen max-2sm:h-full lg:h-screen 2sm:h-screen">
+    <section className="md:bg-hero-desktop 2sm:bg-hero-tablet bg-hero-mobile max-w-full bg-center bg-no-repeat bg-cover grid place-items-center md:max-h-screen max-2sm:max-h-full lg:h-screen 2sm:h-screen">
       <div className="flex lg:flex-row flex-col md:justify-between justify-between lg:items-end items-center lg:text-start text-center lg:px-0 md:mt-40 mt-24 w-[75%] gap-8">
         <div className="text-white lg:w-[40%] md:w-[70%] w-[80%]">
           <p className="font-barlow tracking-[4.72px] text-lg">SO, YOU WANT TO TRAVEL TO</p>

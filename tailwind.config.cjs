@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-desktop': "url('./src/assets/home/backround-home-desktop.jpg')",
+        'hero-desktop': "url('https://user-images.githubusercontent.com/88566690/214437338-d5e5de9e-5d3a-436a-9ab5-fa63a6899c53.jpg')",
         'hero-tablet': "url('./src/assets/home/background-home-tablet.jpg')",
         'hero-mobile': "url('./src/assets/home/background-home-mobile.jpg')",
 

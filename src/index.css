@@ -16,6 +16,7 @@ strong {
   position: relative;
 }
 
+
 .active:after {
   content: '';
   position: absolute;
@@ -25,6 +26,11 @@ strong {
   bottom: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
+}
+
+.active-dot {
+  background-color: #fff;
+  opacity: 100%;
 }
 
 

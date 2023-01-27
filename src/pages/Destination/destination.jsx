@@ -51,9 +51,12 @@ export default function destination() {
 
   return (
 
-    <section className="md:bg-destination-desktop 2sm:bg-destination-tablet bg-destination-mobile w-full bg-no-repeat grid place-items-center items-center bg-cover md:px-24">
-        <div className='flex lg:flex-row flex-col md:justify-between justify-center items-center text-white md:gap-36 gap-12 lg:text-left text-center mt-[12rem]'>
-      <img src={destinationImage} alt="destination image" className=''/>
+    <section className="md:bg-destination-desktop 2sm:bg-destination-tablet bg-destination-mobile w-full bg-no-repeat grid place-items-center items-center bg-cover lg:px-32 md:px-24">
+        <div className='flex lg:flex-row flex-col md:justify-between justify-center items-center text-white lg:gap-36 md:gap-16 gap-12 lg:text-left text-center mt-[10rem] max-md:mt-[7rem]'>
+       <div className="flex flex-col gap-12">
+       <h1 className="font-barlow-cond text-[28px] tracking-[4.72px]"><span className="text-hover opacity-75">01</span> PICK YOUR DESTINATION</h1>
+      <img src={destinationImage} alt="destination image" className='lg:p-8'/>
+       </div>
       <div className='lg:w-[40%] w-full'>
 
       <nav className="flex gap-8 font-barlow-cond tracking-[2.74px] max-lg:justify-center">
@@ -65,7 +68,7 @@ export default function destination() {
 
         <h1 className='text-8xl font-belle'>{destination}</h1>
         <p className='font-barlow leading-8 border-b-2 border-hover py-6'>{description}</p>
-        <article className='flex items-center gap-20 mt-8 justify-between'>
+        <article className='flex items-center gap-20 mt-8 max-md:justify-between'>
           <div>
             <p className='font-barlow-cond tracking-[2.36px]'>AVG. DISTANCE</p>
             <h3 className='font-belle text-3xl'>{distance}</h3>

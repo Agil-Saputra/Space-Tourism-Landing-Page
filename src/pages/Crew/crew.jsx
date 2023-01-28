@@ -71,7 +71,7 @@ export default function crew() {
 
     </div>
 
-    <img src={profileImg} alt="Crew Image" className='w-auto md:h-[550px] object-contain'/>
+    <img src={profileImg} alt={name} className='w-auto md:h-[550px] object-contain'/>
       
     </div>
     </section>

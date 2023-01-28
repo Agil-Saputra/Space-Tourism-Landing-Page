@@ -33,4 +33,8 @@ strong {
   opacity: 100%;
 }
 
+.active-num{
+  @apply bg-white text-black
+}
+
 

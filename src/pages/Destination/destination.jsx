@@ -8,7 +8,7 @@ import data from "../../data.json";
 
 export default function destination() {
   const link = "link py-4 my-4 relative before:content-[''] before:absolute before:w-full before:h-[3px] hover:before:bg-hover before:bottom-0 before:left-0 before:transition-all before:duration-300 before:ease-in-out"
-  const active = "link py-4 my-4 relative before:content-[''] before:absolute before:w-full before:h-[3px] hover:before:bg-hover before:bottom-0 before:left-0 before:transition-all before:duration-300 before:ease-in-out active"
+  const active = " active"
   const [destination, setDestination] = useState("MOON");
   const [destinationImage, setDestinationImage] = useState(moon);
   const [description, setDescription] = useState(data.destinations[0].description);
@@ -55,12 +55,12 @@ export default function destination() {
         <div className='flex lg:flex-row flex-col md:justify-between justify-center items-center text-white lg:gap-36 md:gap-16 gap-12 lg:text-left text-center mt-[10rem] max-md:mt-[7rem]'>
        <div className="flex flex-col gap-12">
        <h1 className="font-barlow-cond text-[28px] tracking-[4.72px]"><span className="text-hover opacity-75">01</span> PICK YOUR DESTINATION</h1>
-      <img src={destinationImage} alt="destination image" className='lg:p-8'/>
+      <img src={destinationImage} alt={destination} className='lg:p-8'/>
        </div>
       <div className='lg:w-[40%] w-full'>
 
       <nav className="flex gap-8 font-barlow-cond tracking-[2.74px] max-lg:justify-center">
-                    <Link to="" className={active} onClick={() => { handleDestination("Moon"); }} >MOON</Link>
+                    <Link to="" className={link + active} onClick={() => { handleDestination("Moon"); }} >MOON</Link>
                     <Link to="" className={link} onClick={() => { handleDestination("Mars"); }} >MARS</Link>
                     <Link to="" className={link} onClick={() => { handleDestination("Europa"); }} >EUROPA</Link>
                     <Link to="" className={link} onClick={() => { handleDestination("Titan"); }} >TITAN</Link>

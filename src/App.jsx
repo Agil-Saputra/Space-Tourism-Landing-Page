@@ -14,9 +14,6 @@ import Technology from './pages/Technology/technology'
 import Navbar from './components/navbar'
 
 
-
-
-
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -36,3 +33,8 @@ function App() {
 }
 
 export default App
+
+
+
+
+
